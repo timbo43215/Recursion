@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3DF5B3298D956100B37A85 /* RecursionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3DF5B2298D956100B37A85 /* RecursionApp.swift */; };
+		AB3DF5B5298D956100B37A85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3DF5B4298D956100B37A85 /* ContentView.swift */; };
+		AB3DF5B7298D956200B37A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3DF5B6298D956200B37A85 /* Assets.xcassets */; };
+		AB3DF5BA298D956200B37A85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3DF5B9298D956200B37A85 /* Preview Assets.xcassets */; };
+		AB3DF5C5298D956200B37A85 /* RecursionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3DF5C4298D956200B37A85 /* RecursionTests.swift */; };
+		AB3DF5CF298D956200B37A85 /* RecursionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3DF5CE298D956200B37A85 /* RecursionUITests.swift */; };
+		AB3DF5D1298D956200B37A85 /* RecursionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3DF5D0298D956200B37A85 /* RecursionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB3DF5C1298D956200B37A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3DF5A7298D956100B37A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3DF5AE298D956100B37A85;
+			remoteInfo = Recursion;
+		};
+		AB3DF5CB298D956200B37A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3DF5A7298D956100B37A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3DF5AE298D956100B37A85;
+			remoteInfo = Recursion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB3DF5AF298D956100B37A85 /* Recursion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recursion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3DF5B2298D956100B37A85 /* RecursionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursionApp.swift; sourceTree = "<group>"; };
+		AB3DF5B4298D956100B37A85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB3DF5B6298D956200B37A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB3DF5B9298D956200B37A85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB3DF5BB298D956200B37A85 /* Recursion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Recursion.entitlements; sourceTree = "<group>"; };
+		AB3DF5C0298D956200B37A85 /* RecursionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecursionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3DF5C4298D956200B37A85 /* RecursionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursionTests.swift; sourceTree = "<group>"; };
+		AB3DF5CA298D956200B37A85 /* RecursionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecursionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3DF5CE298D956200B37A85 /* RecursionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursionUITests.swift; sourceTree = "<group>"; };
+		AB3DF5D0298D956200B37A85 /* RecursionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3DF5AC298D956100B37A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3DF5BD298D956200B37A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3DF5C7298D956200B37A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3DF5A6298D956100B37A85 = {
+			isa = PBXGroup;
+			children = (
+				AB3DF5B1298D956100B37A85 /* Recursion */,
+				AB3DF5C3298D956200B37A85 /* RecursionTests */,
+				AB3DF5CD298D956200B37A85 /* RecursionUITests */,
+				AB3DF5B0298D956100B37A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3DF5B0298D956100B37A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3DF5AF298D956100B37A85 /* Recursion.app */,
+				AB3DF5C0298D956200B37A85 /* RecursionTests.xctest */,
+				AB3DF5CA298D956200B37A85 /* RecursionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3DF5B1298D956100B37A85 /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				AB3DF5B2298D956100B37A85 /* RecursionApp.swift */,
+				AB3DF5B4298D956100B37A85 /* ContentView.swift */,
+				AB3DF5B6298D956200B37A85 /* Assets.xcassets */,
+				AB3DF5BB298D956200B37A85 /* Recursion.entitlements */,
+				AB3DF5B8298D956200B37A85 /* Preview Content */,
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
+		AB3DF5B8298D956200B37A85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB3DF5B9298D956200B37A85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB3DF5C3298D956200B37A85 /* RecursionTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3DF5C4298D956200B37A85 /* RecursionTests.swift */,
+			);
+			path = RecursionTests;
+			sourceTree = "<group>";
+		};
+		AB3DF5CD298D956200B37A85 /* RecursionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3DF5CE298D956200B37A85 /* RecursionUITests.swift */,
+				AB3DF5D0298D956200B37A85 /* RecursionUITestsLaunchTests.swift */,
+			);
+			path = RecursionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3DF5AE298D956100B37A85 /* Recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3DF5D4298D956200B37A85 /* Build configuration list for PBXNativeTarget "Recursion" */;
+			buildPhases = (
+				AB3DF5AB298D956100B37A85 /* Sources */,
+				AB3DF5AC298D956100B37A85 /* Frameworks */,
+				AB3DF5AD298D956100B37A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recursion;
+			productName = Recursion;
+			productReference = AB3DF5AF298D956100B37A85 /* Recursion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB3DF5BF298D956200B37A85 /* RecursionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3DF5D7298D956200B37A85 /* Build configuration list for PBXNativeTarget "RecursionTests" */;
+			buildPhases = (
+				AB3DF5BC298D956200B37A85 /* Sources */,
+				AB3DF5BD298D956200B37A85 /* Frameworks */,
+				AB3DF5BE298D956200B37A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3DF5C2298D956200B37A85 /* PBXTargetDependency */,
+			);
+			name = RecursionTests;
+			productName = RecursionTests;
+			productReference = AB3DF5C0298D956200B37A85 /* RecursionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB3DF5C9298D956200B37A85 /* RecursionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3DF5DA298D956200B37A85 /* Build configuration list for PBXNativeTarget "RecursionUITests" */;
+			buildPhases = (
+				AB3DF5C6298D956200B37A85 /* Sources */,
+				AB3DF5C7298D956200B37A85 /* Frameworks */,
+				AB3DF5C8298D956200B37A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3DF5CC298D956200B37A85 /* PBXTargetDependency */,
+			);
+			name = RecursionUITests;
+			productName = RecursionUITests;
+			productReference = AB3DF5CA298D956200B37A85 /* RecursionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3DF5A7298D956100B37A85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AB3DF5AE298D956100B37A85 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AB3DF5BF298D956200B37A85 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB3DF5AE298D956100B37A85;
+					};
+					AB3DF5C9298D956200B37A85 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AB3DF5AE298D956100B37A85;
+					};
+				};
+			};
+			buildConfigurationList = AB3DF5AA298D956100B37A85 /* Build configuration list for PBXProject "Recursion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB3DF5A6298D956100B37A85;
+			productRefGroup = AB3DF5B0298D956100B37A85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3DF5AE298D956100B37A85 /* Recursion */,
+				AB3DF5BF298D956200B37A85 /* RecursionTests */,
+				AB3DF5C9298D956200B37A85 /* RecursionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3DF5AD298D956100B37A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3DF5BA298D956200B37A85 /* Preview Assets.xcassets in Resources */,
+				AB3DF5B7298D956200B37A85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3DF5BE298D956200B37A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3DF5C8298D956200B37A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3DF5AB298D956100B37A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3DF5B5298D956100B37A85 /* ContentView.swift in Sources */,
+				AB3DF5B3298D956100B37A85 /* RecursionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3DF5BC298D956200B37A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3DF5C5298D956200B37A85 /* RecursionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3DF5C6298D956200B37A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3DF5CF298D956200B37A85 /* RecursionUITests.swift in Sources */,
+				AB3DF5D1298D956200B37A85 /* RecursionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3DF5C2298D956200B37A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3DF5AE298D956100B37A85 /* Recursion */;
+			targetProxy = AB3DF5C1298D956200B37A85 /* PBXContainerItemProxy */;
+		};
+		AB3DF5CC298D956200B37A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3DF5AE298D956100B37A85 /* Recursion */;
+			targetProxy = AB3DF5CB298D956200B37A85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB3DF5D2298D956200B37A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB3DF5D3298D956200B37A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB3DF5D5298D956200B37A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Recursion/Recursion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recursion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.Recursion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB3DF5D6298D956200B37A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Recursion/Recursion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recursion/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.Recursion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB3DF5D8298D956200B37A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.RecursionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recursion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recursion";
+			};
+			name = Debug;
+		};
+		AB3DF5D9298D956200B37A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.RecursionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recursion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recursion";
+			};
+			name = Release;
+		};
+		AB3DF5DB298D956200B37A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.RecursionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Recursion;
+			};
+			name = Debug;
+		};
+		AB3DF5DC298D956200B37A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.RecursionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Recursion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3DF5AA298D956100B37A85 /* Build configuration list for PBXProject "Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3DF5D2298D956200B37A85 /* Debug */,
+				AB3DF5D3298D956200B37A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3DF5D4298D956200B37A85 /* Build configuration list for PBXNativeTarget "Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3DF5D5298D956200B37A85 /* Debug */,
+				AB3DF5D6298D956200B37A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3DF5D7298D956200B37A85 /* Build configuration list for PBXNativeTarget "RecursionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3DF5D8298D956200B37A85 /* Debug */,
+				AB3DF5D9298D956200B37A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3DF5DA298D956200B37A85 /* Build configuration list for PBXNativeTarget "RecursionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3DF5DB298D956200B37A85 /* Debug */,
+				AB3DF5DC298D956200B37A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3DF5A7298D956100B37A85 /* Project object */;
+}
